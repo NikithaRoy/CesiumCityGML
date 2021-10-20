@@ -1,0 +1,34 @@
+<style>
+  @import url(../templates/bucket.css);
+       #toolbar .cesium-button {
+        display: block;
+      }
+</style>
+<div id="cesiumContainer" class="fullSize"></div>
+<div id="loadingOverlay">
+  <h1>Loading Slums...</h1>
+</div>
+<div id="toolbar">
+  <select class="cesium-button" id="dropdown">
+        <option value="0">Building Types</option>
+        <option value="1">Status of occupancy</option>
+        <option value="2">Type of the structure of the house</option>
+        <option value="3">Ownership status of the house</option>
+        <option value="4">Status of sanitation(toilets) pre SBM</option>
+        <option value="5">Interest in Household toilets</option>
+        <option value="6">Status of sanitation(toilets) post SBM</option>
+        <option value="7">Type of water Connection</option>
+        <option value="8">Method of solid waste disposal</option>
+      </select>
+        <table class="infoPanel">
+        <tbody>
+          <tr>
+            <td>Use dropdown menu for functions</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table-container">
+      <ul id="labels-list">
+      </ul> 
+</div>
